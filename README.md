@@ -105,7 +105,8 @@ Then in Chrome:
 
 ## Example output
 - Session graph page: `/session/{id}` combines timeline + graph + memory + prediction.
-- Demo video: [FlowTrace Demo](docs/flowtrace-demo.mov)
+- Demo video: [Watch the demo video](docs/flowtrace-demo.mp4)
+
 
 ## Notes on implementation choices
 - `user_id` is hardcoded to `demo_user` in memory rows.
