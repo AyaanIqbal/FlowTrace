@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThirdLayer Recorder</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 12px;
+        width: 260px;
+        font-family: Menlo, Monaco, monospace;
+        background: #f5f8fc;
+        color: #1f2a36;
+      }
+      .card {
+        border: 1px solid #d8e1ea;
+        border-radius: 10px;
+        background: #ffffff;
+        padding: 10px;
+      }
+      button {
+        border: 0;
+        border-radius: 8px;
+        padding: 8px 10px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      .primary { background: #126782; color: #fff; }
+      .danger { background: #bf1f40; color: #fff; }
+      input {
+        width: 100%;
+        margin-bottom: 8px;
+        border-radius: 6px;
+        border: 1px solid #d8e1ea;
+        padding: 6px;
+        box-sizing: border-box;
+      }
+      .row {
+        display: flex;
+        gap: 8px;
+      }
+      .status {
+        margin-top: 8px;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <input id="label" placeholder="Session label (optional)" />
+      <div class="row">
+        <button class="primary" id="start">Start Recording</button>
+        <button class="danger" id="stop">Stop</button>
+      </div>
+      <p id="status" class="status">Idle</p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

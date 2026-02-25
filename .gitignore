@@ -1,0 +1,13 @@
+node_modules
+.pnpm-store
+.DS_Store
+.idea
+apps/web/.next
+apps/web/node_modules
+apps/web/.env.local
+apps/extension/node_modules
+apps/extension/dist
+apps/api/.venv
+apps/api/thirdlayer.db
+.env.local
+.idea/

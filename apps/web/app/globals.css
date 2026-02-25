@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slatebg text-slate-900;
+  font-family: "SF Mono", "Menlo", "Monaco", monospace;
+}
+
+.panel {
+  @apply rounded-xl border border-line bg-panel shadow-sm;
+}

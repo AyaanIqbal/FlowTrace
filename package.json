@@ -1,0 +1,14 @@
+{
+  "name": "thirdlayer-demo",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/web",
+    "apps/extension"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter thirdlayer-web dev",
+    "build:web": "pnpm --filter thirdlayer-web build",
+    "build:extension": "pnpm --filter thirdlayer-extension build"
+  }
+}
